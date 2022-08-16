@@ -78,6 +78,9 @@ h1, h2, h3, h4, h5, h6, p {
 /* =========================================================== */
 /*======================== Navber part ========================*/
 /* =========================================================== */
+.navbar{
+    background-color: #fff;
+}
 .navbar-brand{
     color: #000;
     font-family: 'Josefin Sans', sans-serif;
@@ -230,9 +233,147 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 /* =========================================================== */
-/*======================== header part ========================*/
+/*======================== featured part ========================*/
 /* =========================================================== */
-
+.featured{
+    padding-top: 30px;
+}
+.section-header h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #1A0B5B;
+    padding-bottom: 50px;
+}
+.featured-product-card{
+    box-shadow: 0 0 6px #bebebe6c;
+    margin-bottom: 30px;
+   
+}
+.product-card-img{
+    width: 100%;
+    background-color: #F6F7FB;
+    height: 230px;
+    position: relative;
+    transition: all linear .3s;
+}
+.product-card-img img{
+    width: 60%;
+    transition: all linear .3s;
+}
+.product-card-img-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all linear .3s;
+}
+.product-card-img-overlay-content{
+    width: 100%;
+    height: 100%;
+}
+.overlay-icons{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+}
+.overlay-icons a{
+    padding-right: 15px;
+}
+.overlay-icons a i{
+    color: #0eaff1;
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear .3s;
+}
+.overlay-icons a i:hover{
+    color: #00009D;
+    background-color: #e6e6e6;
+}
+.overlay-button{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.overlay-button a{
+    padding: 7px 15px;
+    background-color: #08D15F;
+    border-radius: 3px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+}
+.product-card-body{
+    padding: 20px;
+    text-align: center;
+}
+.product-card-body h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FB2E86;
+    margin-bottom: 5px;
+}
+.colors{
+    gap: 5px;
+}
+.colors span{
+    display: inline-block;
+}
+.color1{
+    width: 15px;
+    height: 5px;
+    background-color: #05E6B7;
+    border-radius: 10px;
+}
+.color2{
+    width: 15px;
+    height: 5px;
+    background-color: #F701A8;
+    border-radius: 10px;
+}
+.color3{
+    width: 15px;
+    height: 5px;
+    background-color: #00009D;
+    border-radius: 10px;
+}
+.product-card-body h6{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1A0B5B;
+    padding-top: 15px;
+}
+.product-card-body p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1A0B5B;
+    padding-top: 10px;
+    margin-bottom: 3px;
+}
+.featured-product-card:hover .product-card-img{
+    background-color: #f7f7f7;
+}
+.featured-product-card:hover .product-card-img img{
+    width: 50%;
+}
+.featured-product-card:hover .product-card-img-overlay{
+    opacity: 1;
+}
 
 
 /* =========================================================== */
