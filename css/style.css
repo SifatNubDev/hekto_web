@@ -133,6 +133,19 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: #F2F0FF;
     height: 505px;
 }
+.banner-overlay{
+    position: relative;
+}
+.banner-overlay-img{
+    position: absolute;
+    width: 12%;
+    height: 100%;
+    top: 0;
+    left: -150px;
+}
+.banner-overlay-img img{
+    width: 200px;
+}
 .banner-text-slider{
     height: 505px;
 }
@@ -186,7 +199,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .banner-img-overlay{
     position: absolute;
-    width: 100%;
+    width: 20%;
     height: 100%;
     top: 50px;
     left: 290px;
