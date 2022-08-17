@@ -327,6 +327,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: 700;
     color: #FB2E86;
     margin-bottom: 5px;
+    transition: all linear .3s;
 }
 .colors{
     gap: 5px;
@@ -351,6 +352,11 @@ h1, h2, h3, h4, h5, h6, p {
     height: 5px;
     background-color: #00009D;
     border-radius: 10px;
+    transition: all linear .3s;
+}
+.product-card-body{
+    background-color: #fff;
+    transition: all linear .3s;
 }
 .product-card-body h6{
     font-family: 'Josefin Sans', sans-serif;
@@ -358,6 +364,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: 400;
     color: #1A0B5B;
     padding-top: 15px;
+    transition: all linear .3s;
 }
 .product-card-body p{
     font-family: 'Lato', sans-serif;
@@ -366,6 +373,7 @@ h1, h2, h3, h4, h5, h6, p {
     color: #1A0B5B;
     padding-top: 10px;
     margin-bottom: 3px;
+    transition: all linear .3s;
 }
 .featured-product-card:hover .product-card-img{
     background-color: #f7f7f7;
@@ -375,6 +383,21 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .featured-product-card:hover .product-card-img-overlay{
     opacity: 1;
+}
+.featured-product-card:hover .product-card-body{
+    background-color: #2F1AC4;
+}
+.featured-product-card:hover .product-card-body h3{
+    color: #fff;
+}
+.featured-product-card:hover .product-card-body h6{
+    color: #fff;
+}
+.featured-product-card:hover .product-card-body p{
+    color: #fff;
+}
+.featured-product-card:hover .color3{
+    background-color: #e6e6e6;
 }
 
 
@@ -389,16 +412,18 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .slick-dots button{
     font-size: 0;
-    background-color: transparent;
-    border: 1px solid #b3b3b3;
-    width: 15px;
+    background-color: rgba(247, 1, 169, 0.4);
+    border: none;
+    width: 10px;
     height: 3px;
     margin: 0 5px;
     border-radius: 3px;
+    transition: all linear .3s;
 }
 .slick-active button{
     border: none;
     background-color: #FB2E86;
+    width: 20px;
 }
 
 
