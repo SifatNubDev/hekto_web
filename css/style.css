@@ -78,6 +78,9 @@ h1, h2, h3, h4, h5, h6, p {
 /* =========================================================== */
 /*======================== Navber part ========================*/
 /* =========================================================== */
+.navbar{
+    background-color: #fff;
+}
 .navbar-brand{
     color: #000;
     font-family: 'Josefin Sans', sans-serif;
@@ -127,15 +130,276 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 /* =========================================================== */
-/*======================== header part ========================*/
+/*======================== Banber part ========================*/
 /* =========================================================== */
+.banner{
+    background-color: #F2F0FF;
+    height: 505px;
+}
+.banner-overlay{
+    position: relative;
+}
+.banner-overlay-img{
+    position: absolute;
+    width: 12%;
+    height: 100%;
+    top: 0;
+    left: -150px;
+}
+.banner-overlay-img img{
+    width: 200px;
+}
+.banner-text-slider{
+    height: 505px;
+}
+.banner-text h5{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FB2E86;
+    text-transform: capitalize;
+    padding-left: 4px;
+    padding-bottom: 19px;
+}
+.banner-text h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 53px;
+    font-weight: 700;
+    color: #000;
+    letter-spacing: 1px;
+    line-height: 58px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+}
+.banner-text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #8a8fb9;
+    line-height: 28px;
+    padding-right: 160px;
+    padding-left: 4px;
+    padding-bottom: 22px;
+}
+.banner-text a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #FB2E86;
+    text-transform: capitalize;
+    padding: 16px 40px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.banner-img{
+    padding-top: 50px;
+    position: relative;
+}
+
+.banner-img-overlay{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    top: 50px;
+    left: 290px;
+}
+.banner-img-overlay-img{
+    width: 70px;
+    position: relative;
+}
+.banner-img-overlay-img img{
+    width: 100%;
+}
+.banner-img-overlay-img-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 5px;
+    left: 0;
+    text-align: center;
+}
+.banner-img-overlay-img-overlay h5{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 20px;
+}
 
 
 
 /* =========================================================== */
-/*======================== header part ========================*/
+/*======================== featured part ========================*/
 /* =========================================================== */
+.featured{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.section-header h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #1A0B5B;
+    padding-bottom: 50px;
+}
+.featured-product-card{
+    box-shadow: 0 0 6px #bebebe6c;
+    margin: 0 15px;
+    margin-bottom: 5px;
+   
+}
+.product-card-img{
+    width: 100%;
+    background-color: #F6F7FB;
+    height: 230px;
+    position: relative;
+    transition: all linear .3s;
+}
+.product-card-img img{
+    width: 60%;
+    transition: all linear .3s;
+}
+.product-card-img-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all linear .3s;
+}
+.product-card-img-overlay-content{
+    width: 100%;
+    height: 100%;
+}
+.overlay-icons{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+}
+.overlay-icons a{
+    padding-right: 15px;
+}
+.overlay-icons a i{
+    color: #0eaff1;
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear .3s;
+}
+.overlay-icons a i:hover{
+    color: #00009D;
+    background-color: #e6e6e6;
+}
+.overlay-button{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.overlay-button a{
+    padding: 7px 15px;
+    background-color: #08D15F;
+    border-radius: 3px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+}
+.product-card-body{
+    padding: 20px;
+    text-align: center;
+}
+.product-card-body h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FB2E86;
+    margin-bottom: 5px;
+}
+.colors{
+    gap: 5px;
+}
+.colors span{
+    display: inline-block;
+}
+.color1{
+    width: 15px;
+    height: 5px;
+    background-color: #05E6B7;
+    border-radius: 10px;
+}
+.color2{
+    width: 15px;
+    height: 5px;
+    background-color: #F701A8;
+    border-radius: 10px;
+}
+.color3{
+    width: 15px;
+    height: 5px;
+    background-color: #00009D;
+    border-radius: 10px;
+}
+.product-card-body h6{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1A0B5B;
+    padding-top: 15px;
+}
+.product-card-body p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1A0B5B;
+    padding-top: 10px;
+    margin-bottom: 3px;
+}
+.featured-product-card:hover .product-card-img{
+    background-color: #f7f7f7;
+}
+.featured-product-card:hover .product-card-img img{
+    width: 50%;
+}
+.featured-product-card:hover .product-card-img-overlay{
+    opacity: 1;
+}
 
+
+
+/* slick part */
+
+
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slick-dots button{
+    font-size: 0;
+    background-color: transparent;
+    border: 1px solid #b3b3b3;
+    width: 15px;
+    height: 3px;
+    margin: 0 5px;
+    border-radius: 3px;
+}
+.slick-active button{
+    border: none;
+    background-color: #FB2E86;
+}
 
 
 /* =========================================================== */
