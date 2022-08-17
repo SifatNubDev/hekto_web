@@ -1,5 +1,16 @@
 $(function(){
-// banner slider
+
+  //mixitup
+  var containerEl = document.querySelector('.product-mix');
+  var mixer = mixitup(containerEl, {
+      animation: {
+          duration: 1000
+      }
+  });
+
+
+
+// product slider
 $('.featured-product-slider').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
