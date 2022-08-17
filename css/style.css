@@ -98,11 +98,11 @@ h1, h2, h3, h4, h5, h6, p {
     margin-right: 20px;
     transition: all linear .3s;
 }
-.navbar-nav .nav-link.active{
-	color: #FB2E86;
+.active{
+	color: #FB2E86 !important;
 }
 .nav-item .nav-link:hover{
-    color: #FB2E86;
+    color: #FB2E86 !important;
 }
 .form-control{
     border-radius: 0;
