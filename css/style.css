@@ -237,6 +237,7 @@ h1, h2, h3, h4, h5, h6, p {
 /* =========================================================== */
 .featured{
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 .section-header h2{
     font-family: 'Josefin Sans', sans-serif;
@@ -247,7 +248,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .featured-product-card{
     box-shadow: 0 0 6px #bebebe6c;
-    margin-bottom: 30px;
+    margin: 0 15px;
+    margin-bottom: 5px;
    
 }
 .product-card-img{
@@ -373,6 +375,30 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .featured-product-card:hover .product-card-img-overlay{
     opacity: 1;
+}
+
+
+
+/* slick part */
+
+
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slick-dots button{
+    font-size: 0;
+    background-color: transparent;
+    border: 1px solid #b3b3b3;
+    width: 15px;
+    height: 3px;
+    margin: 0 5px;
+    border-radius: 3px;
+}
+.slick-active button{
+    border: none;
+    background-color: #FB2E86;
 }
 
 
