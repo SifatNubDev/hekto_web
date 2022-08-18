@@ -547,7 +547,7 @@ h1, h2, h3, h4, h5, h6, p {
 /*======================== Shopex part ========================*/
 /* =========================================================== */
 .shopex{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .shopex-card{
     width: 100%;
@@ -574,9 +574,82 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 /* =========================================================== */
-/*======================== header part ========================*/
+/*======================== Unique product part ========================*/
 /* =========================================================== */
-
+.unique{
+    background-color: #F1F0FF;
+    margin-bottom: 50px;
+    padding: 20px 0;
+}
+.unique-product-img img{
+    width: 80%;
+}
+.section-header-linehight h2{
+    line-height: 50px;
+    padding-bottom: 20px;
+}
+.unique-product-text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ACABC3;
+    line-height: 28px;
+    padding-right: 45px;
+}
+.pink-dot{
+    background-color: #F52B70;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 9px;
+}
+.blue-dot{
+    background-color: #2B2BF5;
+    width: 12px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 9px;
+}
+.green-dot{
+    background-color: #2BF5CC;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 9px;
+}
+.unique-product-button{
+    padding-top: 20px;
+}
+.unique-product-button a{
+    padding: 14px 35px;
+    background-color: #FB2E86;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 4px;
+}
+.unique-product-button-text{
+    margin-left: 20px;
+}
+.unique-product-button-text h6{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #151875;
+    padding-top: 5px;
+}
+.unique-product-button-text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #151875;
+    line-height: 0px;
+    padding-top: 10px;
+}
 
 
 /* =========================================================== */
