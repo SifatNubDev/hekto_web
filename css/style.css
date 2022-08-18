@@ -249,7 +249,7 @@ h1, h2, h3, h4, h5, h6, p {
     box-shadow: 0 0 6px #bebebe6c;
     margin: 0 15px;
     margin-bottom: 5px;
-    padding-top: 50px;
+    margin-top: 30px;
 }
 .product-card-img{
     width: 100%;
