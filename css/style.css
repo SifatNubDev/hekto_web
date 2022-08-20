@@ -581,13 +581,13 @@ h1, h2, h3, h4, h5, h6, p {
     padding-top: 127px;
 }
 .product-head {
-    padding-bottom: 145px;
+    padding-bottom: 127px;
 }
 .head-left h2 {
     font-family: 'Josefin Sans', sans-serif;
     color: #151875;
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 700;
     text-transform: capitalize; 
 }
 .head-left p {
@@ -637,6 +637,84 @@ h1, h2, h3, h4, h5, h6, p {
     margin-left: 10px;
 }
 
+
+/*================================products=========================================*/
+
+.product-main {
+    padding-bottom: 80px;
+}
+.product-item {
+    width: 360px;
+}
+.p-img {
+    width: 360px;
+    height: 375px;
+    background-color: #F6F7FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-img img {
+    width: 250px;
+}
+.p-content {
+    padding-top: 25px;
+    text-align: center;
+}
+.p-content h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #151875;
+    font-size: 22px;
+    font-weight: 700;
+}
+.color-dots {
+    padding-top: 5px;
+}
+.color-dot1 {
+    width: 15px;
+    height: 15px;
+    background-color: #DE9034;
+    border-radius: 50%;
+}
+.color-dot2 {
+    width: 15px;
+    height: 15px;
+    background-color: #EC42A2;
+    border-radius: 50%;
+    margin: 0 7px;
+}
+.color-dot3 {
+    width: 15px;
+    height: 15px;
+    background-color: #8568FF;
+    border-radius: 50%;
+}
+.price {
+    padding-top: 15px;
+}
+.price p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #151875;
+    font-size: 18px;
+    font-weight: 600;
+}
+.discount p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #FB2E86;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 10px;
+    position: relative;
+}
+.discount p::after {
+    position: absolute;
+    content: '';
+    width: 55px;
+    height: 2px;
+    background-color: #FB2E86;
+    top: 6px;
+    left: 10px;
+}
 
 /* =========================================================== */
 /*======================== header part ========================*/
