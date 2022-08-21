@@ -564,11 +564,11 @@ h1, h2, h3, h4, h5, h6, p {
     font-family: 'Lato', sans-serif;
     color: #000;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: capitalize;
     transition: all linear .3s;
 }
-.links a:hover {
+.links span {
     color: #FB2E86;
 }
 
@@ -877,7 +877,7 @@ input:focus-visible {
 .product-list {
     width: 100%;
     padding: 15px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.103) 0px 7px 29px 0px;
     margin-bottom: 70px;
 }
 .list-right {
