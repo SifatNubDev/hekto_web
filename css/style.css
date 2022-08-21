@@ -874,8 +874,68 @@ input:focus-visible {
 /*======================== header part ========================*/
 /* =========================================================== */
 
-
-
+.product-list {
+    width: 100%;
+    padding: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 70px;
+}
+.list-right {
+    padding-left: 30px;
+}
+.right-head {
+    padding-top: 30px;
+}
+.right-head-content h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #151875;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-top: 5px;
+}
+.right-head-content .price {
+    padding-top: 10px;
+}
+.p-rating {
+    gap: 3px;
+    padding-left: 20px;
+}
+.p-rating i {
+    font-size: 14px;
+    color: #FFC416;
+}
+.right-head .color-dots {
+    padding-left: 20px;
+}
+.list-right span {
+    font-family: 'Lato', sans-serif;
+    color: #8A8FB9;
+    font-size: 16px;
+    font-weight: 400;
+}
+.list-right .p-icons {
+    opacity: 1;
+}
+.list-icons{
+    padding-top: 20px;
+    gap: 15px;
+}
+.list-links{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: all linear .3s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.list-links a {
+    color: #151875;
+    font-size: 16px;
+}
+.list-links:hover {
+    
+}
 /* =========================================================== */
 /*======================== header part ========================*/
 /* =========================================================== */
