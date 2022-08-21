@@ -579,6 +579,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 #products {
     padding-top: 127px;
+    padding-bottom: 100px;
 }
 .product-head {
     padding-bottom: 127px;
@@ -598,7 +599,7 @@ h1, h2, h3, h4, h5, h6, p {
     padding-top: 5px;
 }
 .filter-item {
-    padding-right: 30px;
+    padding-right: 23px;
 }
 .filter-item p {
     font-family: 'Lato', sans-serif;
@@ -644,19 +645,46 @@ h1, h2, h3, h4, h5, h6, p {
     padding-bottom: 80px;
 }
 .product-item {
-    width: 360px;
+    transition: all linear .3s;
 }
 .p-img {
-    width: 360px;
+    width: 100%;
     height: 375px;
     background-color: #F6F7FB;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .p-img img {
-    width: 250px;
+    width: 200px;
 }
+.p-icons {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    opacity: 0;
+}
+.p-icons a {
+    color: #151875;
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 50%;
+    transition: all linear .3s;
+    display: block;
+    margin-bottom: 8px;
+}
+.p-icons a:hover {
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.product-item:hover .p-icons {
+    opacity: 1;
+}
+
 .p-content {
     padding-top: 25px;
     text-align: center;
@@ -716,16 +744,130 @@ h1, h2, h3, h4, h5, h6, p {
     left: 10px;
 }
 
-/* =========================================================== */
-/*======================== header part ========================*/
-/* =========================================================== */
-
-
 
 /* =========================================================== */
 /*======================== header part ========================*/
 /* =========================================================== */
 
+footer {
+    background-color: #EEEFFB;
+    padding: 100px 0;
+}
+.sign-up {
+    padding-top: 40px;
+    position: relative;
+}
+.sign-up input[type=text] {
+    width: 400px;
+    padding: 16px;
+    margin: 8px 0;
+    font-family: 'Lato', sans-serif;
+    color: #8A8FB9;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: none;
+    text-transform: capitalize;
+}
+.sign-up label {
+    position: absolute;
+    background-color: #F701A8;
+    padding: 10px 40px;
+    border-radius: 5px;
+    top: 52px;
+    right: 130px;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+.sign-up label a {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.sign-up label:hover {
+    background-color: rgb(220, 17, 139);
+}
+.contact {
+    padding-top: 20px;
+}
+.contact h4 {
+    font-family: 'Lato', sans-serif;
+    color: #8A8FB9;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.contact p {
+    font-family: 'Lato', sans-serif;
+    color: #8A8FB9;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+input:focus-visible {
+    outline-offset: 0;
+    border: none;
+}
+
+
+.categories h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #151875;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.category-links {
+    padding-top: 30px;
+}
+.category-links ul li {
+    padding-top: 15px;
+}
+.category-links ul li a {
+    font-family: 'Lato', sans-serif;
+    color: #8A8FB9;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+/* =========================================================== */
+/*======================== copyright ========================*/
+/* =========================================================== */
+
+
+#copyright {
+    padding: 30px 0;
+    background-color: #E7E4F8;
+}
+.copyright p {
+    font-family: 'Lato', sans-serif;
+    color: #8A8FB9;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 6px;
+}
+.socials{
+    gap: 10px;
+}
+.social-links{
+    width: 27px;
+    height: 27px;
+    background-color: #1A0B5B;
+    border-radius: 50%;
+    transition: all linear .3s;
+}
+.social-links a {
+    color: #fff;
+    font-size: 14px;
+}
+.social-links:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 
 
 /* =========================================================== */
