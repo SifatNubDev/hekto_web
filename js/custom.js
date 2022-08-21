@@ -1,12 +1,23 @@
 $(function(){
 
-  //mixitup
+  //mixitup product
   var containerEl = document.querySelector('.product-mix');
   var mixer = mixitup(containerEl, {
       animation: {
           duration: 1000
-      }
+      },
+      
   });
+  //mixitup discount-product
+  // var containerEl = document.querySelector('.discount-item-mix');
+  // var mixer = mixitup(containerEl, {
+  //     animation: {
+  //         duration: 1000
+  //     },
+  //     load: {
+  //       filter: '.wood'
+  //   }
+  // });
 
 
 
