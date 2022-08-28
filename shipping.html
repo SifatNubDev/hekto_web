@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hekto</title>
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500;600;700&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- slik link -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- fontawsome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- main css link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- ==================================================================== -->
+<!--======================= Header part start here =======================-->
+<!-- ==================================================================== -->
+    
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+
+
+                <div class="col-lg-6">
+                    <div class="header-content-left">
+                        <ul>
+                            <li>
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <a href="mailto:mhhasanul@gmail.com">mhhasanul@gmail.com</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <a href="tel:1234567890">(12345)67890</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 text-end">
+                    <div class="header-content-right">
+                        <ul>
+                            <li>
+                                <select name="language" id="language">
+                                    <option value="english">English</option>
+                                    <option value="spanish">Spanish</option>
+                                  </select>
+                            </li>
+                            <li>
+                                <select name="money" id="money">
+                                    <option value="usd">Usd</option>
+                                    <option value="euro">Euro</option>
+                                  </select>
+                            </li>
+                            <li>
+                                <a href="#">Login</a>
+                                <i class="fa fa-user-o" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <a href="#">Wishlist</a>
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+
+<!-- ==================================================================== -->
+<!--======================= Navbar part start here =======================-->
+<!-- ==================================================================== -->
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Hekto</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control" type="search" placeholder="" aria-label="Search">
+          <button class="btn-ser" type="submit">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+</nav>
+
+
+
+
+
+<!-- ==================================================================== -->
+<!--======================= Banner =======================-->
+<!-- ==================================================================== -->
+
+
+<section id="productbanner">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="pbnr-content d-flex align-items-center">
+          <div class="bnr-text">
+            <h1>order shipping</h1>
+            <div class="links">
+              <a href="#">home .</a>
+              <a href="#">pages .</a>
+              <a href="#"><span>shipping</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- ==================================================================== -->
+<!--======================= product-shipping =======================-->
+<!-- ==================================================================== -->
+
+<section id="shipping">
+  
+  <div class="container">
+
+    <div class="row shipping d-flex justify-content-between">
+
+      <!-- ================================ shipping details ==================================== -->
+
+      <div class="col-lg-8">
+        
+        <div class="shiphead">
+          <div class="head-left">
+            <h2>Hekto Demo</h2>
+            <p>Cart/ Information/ Shipping/ Payment</p>
+          </div>
+        </div>
+
+        <div class="product-shipping">
+          
+          <div class="infohead d-flex justify-content-between">
+            <h3>Contact Information</h3>
+            <div class="login d-flex">
+              <p>Already have an account?</p>
+              <a href="#">log in</a>
+            </div>
+          </div>
+
+          <form class="shipping-info">
+            
+            <div class="fullinput">
+              <input type="email" id="email" placeholder="Email or mobile phone number" name="email">
+            </div>
+            
+            <div class="uptodate d-flex">
+              <i class="fa fa-check-square" aria-hidden="true"></i>
+              <p>Keep me up to date on news and excluive offers</p>
+            </div>
+
+          </form>
+
+          <div class="shipping-address">
+            
+            <div class="infohead">
+              <h3>Shipping address</h3>
+            </div>
+
+            <form class="shipping-details">
+
+              <div class="halfinput d-flex justify-content-between">
+                <input type="text" id="fname" placeholder="First name (optional)" name="fname">
+                <input type="text" id="fname" placeholder="Last name" name="fname">
+              </div>
+              <div class="fullinput">
+                <input type="text" id="address" placeholder="Address" name="address">
+                <input type="text" id="address" placeholder="Appaetnentment,suit,e.t.c (optinal)" name="address">
+                <input type="text" id="address" placeholder="City" name="address">
+              </div>
+              <div class="halfinput d-flex justify-content-between">
+                <input type="text" id="country" placeholder="Bangladesh" name="country">
+                <input type="text" id="postcode" placeholder="Postal Code" name="postcode">
+              </div>
+
+            </form>
+
+            <div class="complete-btn">
+              <button type="button" class="btn btn-primary"><a href="#">Continue Shipping</a></button>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      
+      <div class="col-lg-4">
+        
+      <!-- ================================ suggestions list ==================================== -->
+      
+      <div class="suggestion">
+        
+        <div class="suggest-item d-flex justify-content-between align-items-center">
+
+          <div class="suggest-product d-flex">
+            <img src="resources/images/suggest-1.png" alt="product-suggestion">
+            <div class="suggest-details">
+              <h4>Ut diam consequat</h4>
+              <h5>color: brown</h5>
+              <p>size: xL</p>
+            </div>
+          </div>
+
+          <div class="suggest-price">
+            <p>$32.00</p>
+          </div>
+
+        </div>
+
+        <div class="suggest-item d-flex justify-content-between align-items-center">
+
+          <div class="suggest-product d-flex">
+            <img src="resources/images/suggest-2.png" alt="product-suggestion">
+            <div class="suggest-details">
+              <h4>Ut diam consequat</h4>
+              <h5>color: brown</h5>
+              <p>size: xL</p>
+            </div>
+          </div>
+
+          <div class="suggest-price">
+            <p>$32.00</p>
+          </div>
+
+        </div>
+
+        <div class="suggest-item d-flex justify-content-between align-items-center">
+
+          <div class="suggest-product d-flex">
+            <img src="resources/images/suggest-3.png" alt="product-suggestion">
+            <div class="suggest-details">
+              <h4>Ut diam consequat</h4>
+              <h5>color: brown</h5>
+              <p>size: xL</p>
+            </div>
+          </div>
+
+          <div class="suggest-price">
+            <p>$32.00</p>
+          </div>
+
+        </div>
+
+        <div class="suggest-item d-flex justify-content-between align-items-center">
+
+          <div class="suggest-product d-flex">
+            <img src="resources/images/suggest-4.png" alt="product-suggestion">
+            <div class="suggest-details">
+              <h4>Ut diam consequat</h4>
+              <h5>color: brown</h5>
+              <p>size: xL</p>
+            </div>
+          </div>
+
+          <div class="suggest-price">
+            <p>$32.00</p>
+          </div>
+
+        </div>
+
+        <div class="suggest-item d-flex justify-content-between align-items-center">
+
+          <div class="suggest-product d-flex">
+            <img src="resources/images/suggest-5.png" alt="product-suggestion">
+            <div class="suggest-details">
+              <h4>Ut diam consequat</h4>
+              <h5>color: brown</h5>
+              <p>size: xL</p>
+            </div>
+          </div>
+
+          <div class="suggest-price">
+            <p>$32.00</p>
+          </div>
+
+        </div>
+
+      </div>
+      
+      <!-- ================================ checkout ==================================== -->
+
+        <div class="checkout">
+          
+          <div class="checkout-item">
+
+            <div class="totals d-flex justify-content-between">
+              <h4>subtotals</h4>
+              <p>‎£219.00</p>
+            </div>
+            
+            <div class="totals d-flex justify-content-between">
+              <h4>totals</h4>
+              <p>‎‎£325.00</p>
+            </div>
+
+            <div class="uptodate d-flex">
+              <i class="fa fa-check-square" aria-hidden="true"></i>
+              <p>Shipping & taxes calculated at checkout</p>
+            </div>
+
+          </div>
+
+          <div class="checkout-btn">
+            <button type="button" class="btn btn-primary"><a href="#">Proceed To Checkout</a></button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ==================================================================== -->
+<!--======================= Footer =======================-->
+<!-- ==================================================================== -->
+
+
+<footer>
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-lg-5">
+          <div class="foot-left">
+            <div class="logo">
+              <img src="resources/logo/Hekto.png" alt="logo">
+            </div>
+            <div class="sign-up">
+              <label for="signup"><a href="#">sign-up</a></label>
+              <input type="text" id="signup" placeholder="Enter email address" name="signup">
+            </div>
+            <div class="contact">
+              <h4>contact info</h4>
+              <p>17 Princess Road, London, Greater London NW1 8JR, UK</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg">
+          <div class="categories">
+            <h3>categories</h3>
+            <div class="category-links">
+              <ul>
+                <li>
+                  <a href="#">Laptops & Computers</a>
+                </li>
+                <li>
+                  <a href="#">Cameras & Photography</a>
+                </li>
+                <li>
+                  <a href="#">Smart Phones & Tablets</a>
+                </li>
+                <li>
+                  <a href="#">Video Games & Consoles</a>
+                </li>
+                <li>
+                  <a href="#">Waterproof Headphones</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg">
+          <div class="categories">
+            <h3>Customer Care</h3>
+            <div class="category-links">
+              <ul>
+                <li>
+                  <a href="#">My Account</a>
+                </li>
+                <li>
+                  <a href="#">Discount</a>
+                </li>
+                <li>
+                  <a href="#">Returns</a>
+                </li>
+                <li>
+                  <a href="#">Orders History</a>
+                </li>
+                <li>
+                  <a href="#">Order Tracking</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg">
+          <div class="categories">
+            <h3>Pages</h3>
+            <div class="category-links">
+              <ul>
+                <li>
+                  <a href="#">Browse the Shop</a>
+                </li>
+                <li>
+                  <a href="#">Category</a>
+                </li>
+                <li>
+                  <a href="#">Pre-Built Pages</a>
+                </li>
+                <li>
+                  <a href="#">Visual Composer Elements</a>
+                </li>
+                <li>
+                  <a href="#">WooCommerce Pages</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+</footer>
+
+
+
+<!-- ==================================================================== -->
+<!--======================= copyright =======================-->
+<!-- ==================================================================== -->
+
+
+<section id="copyright">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="copyright d-flex justify-content-center">
+          <p>©Webecy - All Rights Reserved</p>
+        </div>
+      </div>
+      <div class="col-lg-6 ms-auto">
+        <div class="socials d-flex justify-content-center">
+          <div class="social-links d-flex justify-content-center align-items-center">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          </div>
+          <div class="social-links d-flex justify-content-center align-items-center">
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </div>
+          <div class="social-links d-flex justify-content-center align-items-center">
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+<!-- ==================================================================== -->
+<!--======================= Header part start here =======================-->
+<!-- ==================================================================== -->
+
+
+
+
+
+<!-- ==================================================================== -->
+<!--======================= Header part start here =======================-->
+<!-- ==================================================================== -->
+
+
+
+
+
+<!-- ==================================================================== -->
+<!--======================= Header part start here =======================-->
+<!-- ==================================================================== -->
+
+
+
+
+<!-- ==================================================================== -->
+<!--======================= Header part start here =======================-->
+<!-- ==================================================================== -->
+
+
+
+
+<!-- ==================================================================== -->
+<!--======================= Header part start here =======================-->
+<!-- ==================================================================== -->
+
+
+
+
+<!-- ==================================================================== -->
+<!--======================= Header part start here =======================-->
+<!-- ==================================================================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery link -->
+<script src="js/jquery-1.12.4.min.js"></script>
+<!-- bootstrap js link -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- mix-it up link -->
+<script src="js/mixitup.min.js"></script>
+<!-- slik link -->
+<script src="js/slick.min.js"></script>
+<!-- JavaScript link -->
+<script src="js/custom.js"></script>
+</body>
+</html>
