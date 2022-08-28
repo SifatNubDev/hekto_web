@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hekto</title>
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500;600;700&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- slik link -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- fontawsome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- main css link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- ==================================================================== -->
+<!--======================= Header part start here =======================-->
+<!-- ==================================================================== -->
+    
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+
+
+                <div class="col-lg-6">
+                    <div class="header-content-left">
+                        <ul>
+                            <li>
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <a href="mailto:mhhasanul@gmail.com">mhhasanul@gmail.com</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <a href="tel:1234567890">(12345)67890</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 text-end">
+                    <div class="header-content-right">
+                        <ul>
+                            <li>
+                                <select name="language" id="language">
+                                    <option value="english">English</option>
+                                    <option value="spanish">Spanish</option>
+                                  </select>
+                            </li>
+                            <li>
+                                <select name="money" id="money">
+                                    <option value="usd">Usd</option>
+                                    <option value="euro">Euro</option>
+                                  </select>
+                            </li>
+                            <li>
+                                <a href="#">Login</a>
+                                <i class="fa fa-user-o" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <a href="#">Wishlist</a>
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+
+<!-- ==================================================================== -->
+<!--======================= Navbar part start here =======================-->
+<!-- ==================================================================== -->
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Hekto</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control" type="search" placeholder="" aria-label="Search">
+          <button class="btn-ser" type="submit">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+</nav>
+
+
+
+
+
+<!-- ==================================================================== -->
+<!--======================= Banner =======================-->
+<!-- ==================================================================== -->
+
+
+<section id="productbanner">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="pbnr-content d-flex align-items-center">
+          <div class="bnr-text">
+            <h1>Shopping Curt</h1>
+            <div class="links">
+              <a href="#">home .</a>
+              <a href="#">pages .</a>
+              <a href="#"><span>Shopping Curt</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- ==================================================================== -->
+<!--======================= shopping cart =======================-->
+<!-- ==================================================================== -->
+
+<section id="shopping-cart">
+
+  <div class="container">
+
+    <div class="row">
+      
+      <div class="col-lg-8">
+        
+        <div class="table-head d-flex justify-content-between">
+          <div class="productsl">
+            <h3>Product</h3>
+          </div>
+          <div class="product-pq d-flex justify-content-between">
+            <h3>price</h3>
+            <h3>quantity</h3>
+            <h3>total</h3>
+          </div>
+        </div>
+
+        <div class="selected-product">
+
+          <div class="selected-item d-flex justify-content-between align-items-center">
+            
+            <div class="suggest-product d-flex">
+              <div class="ordered-item">
+                <img src="resources/leatest-product/slctd-item-1.png" alt="product-suggestion">
+                <div class="cross-icon">
+                  <i class="fa fa-times" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="suggest-details">
+                <h4>Ut diam consequat</h4>
+                <h5>color: brown</h5>
+                <p>size: xL</p>
+              </div>
+            </div>
+  
+            <div class="selected-pq d-flex justify-content-between">
+
+              <div class="suggest-price">
+                <p>$32.00</p>
+              </div>
+
+              <div class="quantity buttons_added">
+                <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+              </div>
+
+              <p>$219.00</p>
+
+            </div>
+
+          </div>
+          <div class="selected-item d-flex justify-content-between align-items-center">
+            
+            <div class="suggest-product d-flex">
+              <div class="ordered-item">
+                <img src="resources/leatest-product/slctd-item-2.png" alt="product-suggestion">
+                <div class="cross-icon">
+                  <i class="fa fa-times" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="suggest-details">
+                <h4>Ut diam consequat</h4>
+                <h5>color: brown</h5>
+                <p>size: xL</p>
+              </div>
+            </div>
+  
+            <div class="selected-pq d-flex justify-content-between">
+
+              <div class="suggest-price">
+                <p>$32.00</p>
+              </div>
+
+              <div class="quantity buttons_added">
+                <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+              </div>
+
+              <p>$219.00</p>
+
+            </div>
+
+          </div>
+          <div class="selected-item d-flex justify-content-between align-items-center">
+            
+            <div class="suggest-product d-flex">
+              <div class="ordered-item">
+                <img src="resources/leatest-product/slctd-item-3.png" alt="product-suggestion">
+                <div class="cross-icon">
+                  <i class="fa fa-times" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="suggest-details">
+                <h4>Ut diam consequat</h4>
+                <h5>color: brown</h5>
+                <p>size: xL</p>
+              </div>
+            </div>
+  
+            <div class="selected-pq d-flex justify-content-between">
+
+              <div class="suggest-price">
+                <p>$32.00</p>
+              </div>
+
+              <div class="quantity buttons_added">
+                <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+              </div>
+
+              <p>$219.00</p>
+
+            </div>
+
+          </div>
+          <div class="selected-item d-flex justify-content-between align-items-center">
+            
+            <div class="suggest-product d-flex">
+              <div class="ordered-item">
+                <img src="resources/leatest-product/slctd-item-4.png" alt="product-suggestion">
+                <div class="cross-icon">
+                  <i class="fa fa-times" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="suggest-details">
+                <h4>Ut diam consequat</h4>
+                <h5>color: brown</h5>
+                <p>size: xL</p>
+              </div>
+            </div>
+  
+            <div class="selected-pq d-flex justify-content-between">
+
+              <div class="suggest-price">
+                <p>$32.00</p>
+              </div>
+
+              <div class="quantity buttons_added">
+                <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+              </div>
+
+              <p>$219.00</p>
+
+            </div>
+
+          </div>
+          <div class="selected-item d-flex justify-content-between align-items-center">
+            
+            <div class="suggest-product d-flex">
+              <div class="ordered-item">
+                <img src="resources/leatest-product/slctd-item-5.png" alt="product-suggestion">
+                <div class="cross-icon">
+                  <i class="fa fa-times" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="suggest-details">
+                <h4>Ut diam consequat</h4>
+                <h5>color: brown</h5>
+                <p>size: xL</p>
+              </div>
+            </div>
+  
+            <div class="selected-pq d-flex justify-content-between">
+
+              <div class="suggest-price">
+                <p>$32.00</p>
+              </div>
+
+              <div class="quantity buttons_added">
+                <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+              </div>
+
+              <p>$219.00</p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="cart-btn d-flex justify-content-between">
+          <div class="complete-btn">
+            <button type="button" class="btn btn-primary"><a href="#">update cart</a></button>
+          </div>
+          <div class="complete-btn">
+            <button type="button" class="btn btn-primary"><a href="#">clear cart</a></button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-lg-4">
+
+        <div class="cart-right">
+          
+          <div class="table-head d-flex justify-content-center">
+            <h3>Cart Totals</h3>
+          </div>
+  
+          <div class="checkout">
+            
+            <div class="checkout-item">
+  
+              <div class="totals d-flex justify-content-between">
+                <h4>subtotals</h4>
+                <p>‎£219.00</p>
+              </div>
+              
+              <div class="totals d-flex justify-content-between">
+                <h4>totals</h4>
+                <p>‎‎£325.00</p>
+              </div>
+  
+              <div class="uptodate d-flex">
+                <i class="fa fa-check-square" aria-hidden="true"></i>
+                <p>Shipping & taxes calculated at checkout</p>
+              </div>
+  
+            </div>
+  
+            <div class="checkout-btn">
+              <button type="button" class="btn btn-primary"><a href="#">Proceed To Checkout</a></button>
+            </div>
+  
+          </div>
+
+          <div class="table-head d-flex justify-content-center">
+            <h3>Calculate Shopping</h3>
+          </div>
+  
+          <div class="calculate">
+            
+            <form class="shipping-details">
+              <div class="fullinput">
+                <input type="text" id="address" placeholder="Bangladesh" name="address">
+                <input type="text" id="address" placeholder="Mirpur Dhaka - 1200" name="address">
+                <input type="text" id="address" placeholder="Postal Code" name="address">
+              </div>
+            </form>
+  
+            <div class="cart-btn">
+              <div class="complete-btn">
+                <button type="button" class="btn btn-primary"><a href="#">Calculate Shiping</a></button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ==================================================================== -->
+<!--======================= Footer =======================-->
+<!-- ==================================================================== -->
+
+
+<footer>
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-lg-5">
+          <div class="foot-left">
+            <div class="logo">
+              <img src="resources/logo/Hekto.png" alt="logo">
+            </div>
+            <div class="sign-up">
+              <label for="signup"><a href="#">sign-up</a></label>
+              <input type="text" id="signup" placeholder="Enter email address" name="signup">
+            </div>
+            <div class="contact">
+              <h4>contact info</h4>
+              <p>17 Princess Road, London, Greater London NW1 8JR, UK</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg">
+          <div class="categories">
+            <h3>categories</h3>
+            <div class="category-links">
+              <ul>
+                <li>
+                  <a href="#">Laptops & Computers</a>
+                </li>
+                <li>
+                  <a href="#">Cameras & Photography</a>
+                </li>
+                <li>
+                  <a href="#">Smart Phones & Tablets</a>
+                </li>
+                <li>
+                  <a href="#">Video Games & Consoles</a>
+                </li>
+                <li>
+                  <a href="#">Waterproof Headphones</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg">
+          <div class="categories">
+            <h3>Customer Care</h3>
+            <div class="category-links">
+              <ul>
+                <li>
+                  <a href="#">My Account</a>
+                </li>
+                <li>
+                  <a href="#">Discount</a>
+                </li>
+                <li>
+                  <a href="#">Returns</a>
+                </li>
+                <li>
+                  <a href="#">Orders History</a>
+                </li>
+                <li>
+                  <a href="#">Order Tracking</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg">
+          <div class="categories">
+            <h3>Pages</h3>
+            <div class="category-links">
+              <ul>
+                <li>
+                  <a href="#">Browse the Shop</a>
+                </li>
+                <li>
+                  <a href="#">Category</a>
+                </li>
+                <li>
+                  <a href="#">Pre-Built Pages</a>
+                </li>
+                <li>
+                  <a href="#">Visual Composer Elements</a>
+                </li>
+                <li>
+                  <a href="#">WooCommerce Pages</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+</footer>
+
+
+
+<!-- ==================================================================== -->
+<!--======================= copyright =======================-->
+<!-- ==================================================================== -->
+
+
+<section id="copyright">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="copyright d-flex justify-content-center">
+          <p>©Webecy - All Rights Reserved</p>
+        </div>
+      </div>
+      <div class="col-lg-6 ms-auto">
+        <div class="socials d-flex justify-content-center">
+          <div class="social-links d-flex justify-content-center align-items-center">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          </div>
+          <div class="social-links d-flex justify-content-center align-items-center">
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </div>
+          <div class="social-links d-flex justify-content-center align-items-center">
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+<!-- ==================================================================== -->
+<!--======================= Header part start here =======================-->
+<!-- ==================================================================== -->
+
+
+
+
+
+<!-- ==================================================================== -->
+<!--======================= Header part start here =======================-->
+<!-- ==================================================================== -->
+
+
+
+
+
+<!-- ==================================================================== -->
+<!--======================= Header part start here =======================-->
+<!-- ==================================================================== -->
+
+
+
+
+<!-- ==================================================================== -->
+<!--======================= Header part start here =======================-->
+<!-- ==================================================================== -->
+
+
+
+
+<!-- ==================================================================== -->
+<!--======================= Header part start here =======================-->
+<!-- ==================================================================== -->
+
+
+
+
+<!-- ==================================================================== -->
+<!--======================= Header part start here =======================-->
+<!-- ==================================================================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<!-- bootstrap js link -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- mix-it up link -->
+<script src="js/mixitup.min.js"></script>
+<!-- slik link -->
+<script src="js/slick.min.js"></script>
+<!-- JavaScript link -->
+<script src="js/custom.js"></script>
+</body>
+</html>
