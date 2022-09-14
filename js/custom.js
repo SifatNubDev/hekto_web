@@ -83,6 +83,11 @@ $('.featured-product-slider').slick({
   
 ///////////-------------------quantity---------------////////////////
 
+  let subTotal = document.getElementById('sub-total');
+  const total = document.getElementById('total');
+ 
+  
+
 
 function updatedQuantity(inputField, isIncrease, single, total){
   let numberField = document.getElementById(inputField);
@@ -115,41 +120,50 @@ function updatedQuantity(inputField, isIncrease, single, total){
   numberField.value = newNumber;
 
   let totalUnitPrice = previousSingle * newNumber;
-  totalUnit.innerText = totalUnitPrice.toFixed(2);
-  return totalUnitPrice;
+  totalUnit.innerText = totalUnitPrice.toFixed(2);  
 }
 
 document.getElementById('selected-product-main').addEventListener('click', function(event){
   let btn = event.target.id;
-  var array1 = [];
-  var array2 = [];
-  var array3 = [];
   if(btn == 'minus-btn1'){
-    var result1 = updatedQuantity('quantity1', false, 'singleUnit1', 'totalUnit1');
-    array1.push(result1);
+    updatedQuantity('quantity1', false, 'singleUnit1', 'totalUnit1');
   }
   else if(btn == 'plus-btn1'){
-    var result1 = updatedQuantity('quantity1', true, 'singleUnit1', 'totalUnit1');
-    array1.push(result1);
+    updatedQuantity('quantity1', true, 'singleUnit1', 'totalUnit1');
   }
   else if(btn == 'minus-btn2'){
-    var result1 = updatedQuantity('quantity2', false, 'singleUnit2', 'totalUnit2');
-    array2.push(result1);
+    updatedQuantity('quantity2', false, 'singleUnit2', 'totalUnit2');
   }
   else if(btn == 'plus-btn2'){
-    var result1 = updatedQuantity('quantity2', true, 'singleUnit2', 'totalUnit2');
-    array2.push(result1);
+    updatedQuantity('quantity2', true, 'singleUnit2', 'totalUnit2');
   }
   else if(btn == 'minus-btn3'){
-    var result1 = updatedQuantity('quantity3', false, 'singleUnit3', 'totalUnit3');
-    array3.push(result1);
+    updatedQuantity('quantity3', false, 'singleUnit3', 'totalUnit3');
   }
   else if(btn == 'plus-btn3'){
-    var result1 = updatedQuantity('quantity3', true, 'singleUnit3', 'totalUnit3');
-    array3.push(result1);
+    updatedQuantity('quantity3', true, 'singleUnit3', 'totalUnit3');
   }
-  
+  else if(btn == 'confirm-cart'){
+    totalCal();
+ }
+
+ 
+  totalCal();
 })
+
+function totalCal(){
+  let totalUnitPriceArray = document.querySelectorAll('.total-unit-price');
+  var sum = 0;
+  for (let i = 0; i < totalUnitPriceArray.length; i++) {
+    var element = totalUnitPriceArray[i].innerText;
+    const elementFloat = parseFloat(element);
+    sum = elementFloat + sum;
+  }
+
+  subTotal.innerText = sum.toFixed(2);
+  var totalSum = sum + sum*0.15;
+  total.innerText = totalSum.toFixed(2);
+}
 
 
 
