@@ -85,7 +85,7 @@ $('.featured-product-slider').slick({
 
   let subTotal = document.getElementById('sub-total');
   const total = document.getElementById('total');
- 
+  totalCal();
   
 
 
@@ -143,10 +143,6 @@ document.getElementById('selected-product-main').addEventListener('click', funct
   else if(btn == 'plus-btn3'){
     updatedQuantity('quantity3', true, 'singleUnit3', 'totalUnit3');
   }
-  else if(btn == 'confirm-cart'){
-    totalCal();
- }
-
  
   totalCal();
 })
